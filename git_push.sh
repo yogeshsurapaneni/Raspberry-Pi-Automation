@@ -1,3 +1,5 @@
+cd ~/Raspberry-Automation
+
 if ! git diff --quiet
 then
 	echo "`date` Changes were present, so Publishing to central"
